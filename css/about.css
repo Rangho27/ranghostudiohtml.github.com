@@ -1,3 +1,10 @@
+/* about.css */
+
+.r-letter {
+    font-size: 36px;
+    color: lightpurple;
+    background-color: lightblue;
+}
 #about {
   position: fixed;
   overflow: auto;
