@@ -1,1 +1,15 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangho의 웹사이트에 오신걸 환영합니다.</title>
+</head>
+<body>
+    <h1>환영합니다!</h1>
+    <p>제 이름은 rangho고요</p>
+    <p>저는 여러분이 이곳에서 많은 다양한 서비스를 경험해 봤으면 좋겠습니다</p>
+    <p>앞으로 좋은 서비스를 만들수 있도록 노력하겠습니다</p>
+</body>
+</html>
