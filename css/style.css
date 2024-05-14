@@ -1,3 +1,32 @@
+/* R 로고의 기본 스타일 */
+.logo {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #fff; /* 기본 텍스트 색상은 흰색 */
+  text-transform: uppercase; /* 텍스트를 대문자로 변환 */
+}
+
+/* R 로고에 오로라 효과 적용 */
+.logo.aurora {
+  animation: aurora 5s infinite; /* 오로라 애니메이션을 5초간 무한 반복 */
+}
+
+/* 오로라 효과를 적용하기 위한 키 프레임 */
+@keyframes aurora {
+  0% {
+    color: #ff0000; /* 빨간색 */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000; /* 빨간색의 그림자 */
+  }
+  50% {
+    color: #00ff00; /* 녹색 */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00; /* 녹색의 그림자 */
+  }
+  100% {
+    color: #0000ff; /* 파란색 */
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff, 0 0 40px #0000ff, 0 0 50px #0000ff, 0 0 60px #0000ff, 0 0 70px #0000ff; /* 파란색의 그림자 */
+  }
+}
 .r-letter {
     font-size: 36px;
     color: lightpurple;
