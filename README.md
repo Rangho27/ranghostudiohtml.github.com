@@ -6,4 +6,4 @@ This is a simple design for the letter R.
 
 - Font size: 36px
 - Color: Light purple
-- Background color: Light blue# example-html
+- Background color: Light blue
